@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>NewDatabase</Database>
+    <Server>LAPTOP-GAA0FGDK\MSSQLSERVER_OLAP</Server>
+    <ConnectionString>Data Source=LAPTOP-GAA0FGDK\MSSQLSERVER_OLAP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>VPnY3auZ1snb7eKqy7P+KT10cII=17.04.2023 22:25:1315.04.2023 16:51:57</TimeStamp>
+        <ID>
+          <String>DWschema</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>5RHnxj/DZH8Xpjj86Xx3iEQEtSI=11.05.2023 20:36:2015.04.2023 16:52:29</TimeStamp>
+        <ID>
+          <String>DWschema</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y4cMaZL4nt+YnesLAUCYVaNHpf8=15.04.2023 17:42:1415.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>Dim Sme</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xSTdT9pxZ7DANv3zziCLtJPfmr8=19.04.2023 19:53:0015.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>Dim Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QyKNjucp6ph4nDY7F6xGuqNzPtY=22.04.2023 17:16:2715.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>Dim Campaign</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XaUog5TDpyAKrVDGhUhVU3Utj7Y=19.04.2023 20:32:2615.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cIDBNRbSnSwmeh5A1Yz7Ni750eI=15.04.2023 17:42:1415.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>Dim Localisation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jACanYtoptnKV18K1Vz1LG0ZEFY=11.05.2023 20:36:2015.04.2023 16:55:05obhdfTYPk2Z2nfRPXt73kf3Pdms=18.04.2023 10:59:5415.04.2023 16:55:05</TimeStamp>
+        <ID>
+          <String>DWschema</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>wEwycMhZKRg//LlbWQHxxBpIeQY=15.04.2023 16:48:1215.04.2023 16:48:12</TimeStamp>
+      <ID>
+        <String>NewDatabase</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-12T08:33:00.543333Z</LastDeployed>
+</DeploymentSnapshot>
