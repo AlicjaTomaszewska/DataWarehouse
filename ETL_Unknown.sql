@@ -20,7 +20,6 @@ Values(-1, 'UNKNOWN');
 go
 
 
-
 SET IDENTITY_INSERT DWschema.dbo.Dim_Localisation OFF;
 
 SET IDENTITY_INSERT dbo.Dim_Sme ON;  
@@ -51,7 +50,6 @@ INSERT INTO dbo.Dim_Store(
 	FinishDate)
 Values(-1, -1,'UNKNOWN','UNKNOWN','1980-01-01','1980-01-02');
 go
-
 
 
 SET IDENTITY_INSERT DWschema.dbo.Dim_STORE OFF;

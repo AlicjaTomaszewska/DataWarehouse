@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="27e7fb85-5286-415c-8d5e-bf87f2c308f5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d081e5f-3e8e-4124-938d-76d7e27efcbf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Sme</ID>
   <Name>Dim Sme</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,49 +68,50 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aa807e4f-40e2-4f3a-ae32-1c58e20aab55">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2a52346b-5f09-405d-88a0-b1502d7d1f62">
     <DataSourceViewID>DWschema</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="616b6901-caa1-4cca-85c7-03a90c23a6b4">
+  <ErrorConfiguration dwd:design-time-name="e1ad58bb-e665-4b1e-bb47-4f1767729fac">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="c9dd1d6f-d4ce-4040-ac4c-550a25fc4c36">
+    <Attribute dwd:design-time-name="571bf585-e952-4dcf-b356-1f5d7f7e6d11">
       <ID>SK Engagement ID</ID>
       <Name>SK Engagement ID</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>3684</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3915d545-8a57-41be-924e-0403df0e3436">
+        <KeyColumn dwd:design-time-name="daed4fb3-4c87-4a9e-aede-74e57b4dcb00">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1fece86-1672-4632-bd5b-b4dbcadea56b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8938270e-957d-4087-b21d-5ed5292db9b7">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>SK_EngagementID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4483a785-1884-442a-964a-ebc8557c5057">
+        <AttributeRelationship dwd:design-time-name="0d8735d1-e307-49b1-b304-0d1a5c43a6c5">
           <AttributeID>SME Total</AttributeID>
           <Name>SME Total</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9509a7c4-22bf-49af-b594-35e32dac89f7">
+        <AttributeRelationship dwd:design-time-name="e1a0e47f-aeae-4e7f-996b-ec61833a2da7">
           <AttributeID>Views</AttributeID>
           <Name>Views</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9c463081-4334-46fb-9c46-cbe59296bd26">
+        <AttributeRelationship dwd:design-time-name="7b4dcd9c-5cc7-477f-a364-9e5c364677fd">
           <AttributeID>Likes</AttributeID>
           <Name>Likes</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="74f76800-69de-4055-86ac-1339fa61f704">
+        <AttributeRelationship dwd:design-time-name="5d8cef81-92c2-4927-b20f-d4dba202f5e9">
           <AttributeID>Comments</AttributeID>
           <Name>Comments</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="90ca0417-65ed-4ec1-ade5-c18eca63f67e">
+        <AttributeRelationship dwd:design-time-name="c723fd52-d515-4343-a91f-03d02e1e680f">
           <AttributeID>Followers</AttributeID>
           <Name>Followers</Name>
         </AttributeRelationship>
@@ -119,14 +120,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="dea206eb-c7cc-4ffe-a81a-b5916653799d">
+    <Attribute dwd:design-time-name="5afba364-00aa-4357-8373-89d1d6be9a23">
       <ID>SME Total</ID>
       <Name>SME Total</Name>
+      <EstimatedCount>5</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="95020167-9bf9-4a32-84bb-994ffb60241d">
+        <KeyColumn dwd:design-time-name="c2931f56-1b03-4b73-a1fd-3c2588523301">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="79a9d934-9adf-40b7-a41e-f40fc4345028">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f35aa11-ac90-4f30-94af-72930b61701d">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>SMETotal</ColumnID>
           </Source>
@@ -135,14 +137,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="774f0ac2-4263-44f6-a30e-63e97082c048">
+    <Attribute dwd:design-time-name="bbf7f8db-55e3-4e2f-810d-ab3cce71e75b">
       <ID>Views</ID>
       <Name>Views</Name>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fb1cc81a-4bba-4465-8d4c-442554a58dfa">
+        <KeyColumn dwd:design-time-name="1521eac8-0bea-4c6c-a91b-865b36509611">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bec0af10-209f-45f8-9f48-b465a8276ff3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="819e51ca-1783-4138-be4b-a8926bb32520">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>Views</ColumnID>
           </Source>
@@ -151,14 +154,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6a029c2a-4208-4693-86a6-e8931b2f4f9c">
+    <Attribute dwd:design-time-name="f7961a52-5dfa-4205-8175-7e7ba791f972">
       <ID>Likes</ID>
       <Name>Likes</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a8e1afdf-f16f-4deb-b325-b68b1737b1ef">
+        <KeyColumn dwd:design-time-name="5d86aa75-8e8e-4c72-89b5-1dc257d13b04">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2304a938-5f58-4389-88e1-095801f17a1f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf1aa775-5550-4cd8-90ab-f48cd86760ca">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>Likes</ColumnID>
           </Source>
@@ -167,14 +170,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="12096278-3087-4fa2-9cd5-86884d80f307">
+    <Attribute dwd:design-time-name="32f817a3-1f21-4aa6-9544-821229c4bf37">
       <ID>Comments</ID>
       <Name>Comments</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f4dcf946-d610-4fc6-8dbc-745fbdef54b6">
+        <KeyColumn dwd:design-time-name="09af38dc-50d0-4ec5-94b7-562fce39345e">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b17f8bb7-565a-4bb0-9ae6-977fb1cba11d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="301474e4-251e-4c87-9c2d-8e926ba6d129">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>Comments</ColumnID>
           </Source>
@@ -183,14 +186,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b1f409cf-4ac0-469b-bca3-6839998e2e96">
+    <Attribute dwd:design-time-name="944ce9ac-3076-4f24-ac6b-f7fc0bcef116">
       <ID>Followers</ID>
       <Name>Followers</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0dbbac55-4b09-4650-86f3-c7f06c80ffda">
+        <KeyColumn dwd:design-time-name="b81a8817-e9a8-4177-9cc4-b6f1997ac3ed">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb53b45d-6544-4113-ab91-4c8ca3df769d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="922ce544-015d-47b6-9999-96f49ef036db">
             <TableID>dbo_Dim_Sme</TableID>
             <ColumnID>Followers</ColumnID>
           </Source>
@@ -201,31 +204,31 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="50077c72-c5c8-4faf-8f6a-5eed15fd87b9">
+    <Hierarchy dwd:design-time-name="19c33e2a-5085-4fbf-a126-76eede664231">
       <ID>Hierarchy</ID>
       <Name>SmeHierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="ee06b226-deb3-423a-ace7-7d05e11139ab">
+        <Level dwd:design-time-name="7928607d-aa40-413a-9381-a4761b8b0f81">
           <ID>SME Total</ID>
           <Name>SME Total</Name>
           <SourceAttributeID>SME Total</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="7d74a18f-f029-4448-a863-2a4c07d709fc">
+        <Level dwd:design-time-name="7c763cb0-a39e-4aec-952d-50cc47eec3c7">
           <ID>Views</ID>
           <Name>Views</Name>
           <SourceAttributeID>Views</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="3c29ae53-a2bc-459e-9c13-13ee096827b2">
+        <Level dwd:design-time-name="54885a64-b381-4e4d-9aff-7f7c13816979">
           <ID>Followers</ID>
           <Name>Followers</Name>
           <SourceAttributeID>Followers</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="dd4dbf1d-4e32-45ef-9328-be5cf30ed79b">
+        <Level dwd:design-time-name="fbcde381-795d-4af8-aed4-c4e284344b14">
           <ID>Likes</ID>
           <Name>Likes</Name>
           <SourceAttributeID>Likes</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="a5a11e6f-04bc-4b99-887e-f73ad537577c">
+        <Level dwd:design-time-name="144d6534-9b18-4b36-ab5a-a7af36b67801">
           <ID>Comments</ID>
           <Name>Comments</Name>
           <SourceAttributeID>Comments</SourceAttributeID>

@@ -4,7 +4,6 @@ go
 If (object_id('CampaignView') is not null) DROP VIEW CampaignView;
 go
 
-
 CREATE VIEW CampaignView AS
 SELECT ROW_NUMBER() OVER (ORDER BY Marketing_Campaigns.Marketing_CampaignID) AS CampaignID,
 PlatformName, Cost as CostValue, CompanyID
@@ -55,6 +54,6 @@ go
 			ELSE 'huge'
 			END);
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+--SELECT * FROM Dim_Campaign
 
 	

@@ -96,6 +96,7 @@
           <ID>SK Engagement ID</ID>
           <Name>SK Engagement ID</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>3684</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -135,6 +136,7 @@
         <Attribute>
           <ID>SME Total</ID>
           <Name>SME Total</Name>
+          <EstimatedCount>5</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -151,6 +153,7 @@
         <Attribute>
           <ID>Views</ID>
           <Name>Views</Name>
+          <EstimatedCount>6</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -333,6 +336,7 @@
           <ID>SK Store ID</ID>
           <Name>SK Store ID</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>162</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -364,6 +368,7 @@
         <Attribute>
           <ID>Size</ID>
           <Name>Size</Name>
+          <EstimatedCount>4</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -422,7 +427,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-308" scrolltop="-3461" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3895" y="9229" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-308" scrolltop="-3461" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10414" y="14838" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -433,7 +438,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Campaign" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3239" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Campaign" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3239" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000a70c000003090000" />
                 </control>
@@ -497,6 +502,7 @@
           <ID>SK Campaign ID</ID>
           <Name>SK Campaign ID</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>122</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -544,6 +550,7 @@
         <Attribute>
           <ID>Cost</ID>
           <Name>Cost</Name>
+          <EstimatedCount>5</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -586,7 +593,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-427" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3895" y="9229" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-427" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9885" y="14838" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -597,7 +604,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
                 </control>
@@ -662,6 +669,7 @@
           <ID>SK Date ID</ID>
           <Name>SK Date ID</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>3685</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -698,6 +706,7 @@
           <ID>Date</ID>
           <Name>Date</Name>
           <Type>Days</Type>
+          <EstimatedCount>3685</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Date</DataType>
@@ -714,6 +723,7 @@
           <ID>Year</ID>
           <Name>Year</Name>
           <Type>Years</Type>
+          <EstimatedCount>12</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -730,6 +740,7 @@
           <ID>Month No</ID>
           <Name>Month No</Name>
           <Type>MonthOfYear</Type>
+          <EstimatedCount>12</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>UnsignedTinyInt</DataType>
@@ -746,6 +757,7 @@
           <ID>Day</ID>
           <Name>Day</Name>
           <Type>DayOfMonth</Type>
+          <EstimatedCount>31</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>UnsignedTinyInt</DataType>
@@ -874,6 +886,7 @@
           <ID>SK Localisation ID</ID>
           <Name>SK Localisation ID</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>17</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -925,7 +938,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1487" scrolltop="-2229" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="19473" y="14838" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1487" scrolltop="-2229" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="26289" y="14838" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -1002,7 +1015,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5459" top="7075" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5958" top="1089" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1010,27 +1023,7 @@
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
-                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_En__0F6D37F0]" vartype="8" />
-                    <property name="Virtual" value="0" vartype="11" />
-                    <property name="VisibleAP" value="0" vartype="3" />
-                  </ddsxmlobj>
-                </layoutobject>
-                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="10" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                  <point x="5858" y="9775" />
-                  <point x="5858" y="8575" />
-                  <point x="5808" y="8575" />
-                  <point x="5808" y="7375" />
-                </connector>
-              </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5958" top="1089" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                <control>
-                  <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                  </ddsxmlobj>
-                </control>
-                <layoutobject>
-                  <ddsxmlobj>
-                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Lo__0D84EF7E]" vartype="8" />
+                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Lo__47B19113]" vartype="8" />
                     <property name="Virtual" value="0" vartype="11" />
                     <property name="VisibleAP" value="0" vartype="3" />
                   </ddsxmlobj>
@@ -1042,7 +1035,7 @@
                   <point x="6358" y="3988" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2959" top="4732" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2959" top="4732" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1050,7 +1043,7 @@
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
-                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Ca__0C90CB45]" vartype="8" />
+                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Ca__46BD6CDA]" vartype="8" />
                     <property name="Virtual" value="0" vartype="11" />
                     <property name="VisibleAP" value="0" vartype="3" />
                   </ddsxmlobj>
@@ -1058,6 +1051,26 @@
                 <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                   <point x="3259" y="5131" />
                   <point x="5659" y="5131" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8957" top="5111" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_St__48A5B54C]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="10" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="11657" y="5510" />
+                  <point x="10457" y="5510" />
+                  <point x="10457" y="5681" />
+                  <point x="9257" y="5681" />
                 </connector>
               </ddscontrol>
               <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8808" top="7075" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="949" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -1068,7 +1081,7 @@
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
-                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Da__0B9CA70C]" vartype="8" />
+                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Da__45C948A1]" vartype="8" />
                     <property name="Virtual" value="0" vartype="11" />
                     <property name="VisibleAP" value="0" vartype="3" />
                   </ddsxmlobj>
@@ -1080,7 +1093,7 @@
                   <point x="9108" y="7375" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8957" top="5111" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5459" top="7075" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1088,16 +1101,16 @@
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
-                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_St__0E7913B7]" vartype="8" />
+                    <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_En__4999D985]" vartype="8" />
                     <property name="Virtual" value="0" vartype="11" />
                     <property name="VisibleAP" value="0" vartype="3" />
                   </ddsxmlobj>
                 </layoutobject>
-                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="10" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                  <point x="11657" y="5510" />
-                  <point x="10457" y="5510" />
-                  <point x="10457" y="5681" />
-                  <point x="9257" y="5681" />
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="10" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="5858" y="9775" />
+                  <point x="5858" y="8575" />
+                  <point x="5808" y="8575" />
+                  <point x="5808" y="7375" />
                 </connector>
               </ddscontrol>
             </dds>
@@ -1201,6 +1214,7 @@
             </Attribute>
             <Attribute>
               <AttributeID>Cost</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Company</AttributeID>
@@ -1316,7 +1330,8 @@
               </Source>
             </Measure>
           </Measures>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
+          <EstimatedRows>589281</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -1430,8 +1445,302 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>-PT1S</SilenceInterval>
+                <Latency>-PT1S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
+              <EstimatedRows>589281</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2023-05-30T18:30:38.603333Z</CreatedTimestamp>
+              <LastSchemaUpdate>2023-05-30T18:48:09.24Z</LastSchemaUpdate>
+              <EstimatedRows>589281</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Sme</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>SK Engagement ID</AttributeID>
+                      <EstimatedCount>3684</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>SME Total</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Views</AttributeID>
+                      <EstimatedCount>6</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Likes</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Comments</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Followers</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>SK Store ID</AttributeID>
+                      <EstimatedCount>162</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Size</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Activeness</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>BK Store ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>SK Campaign ID</AttributeID>
+                      <EstimatedCount>122</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Platform</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Cost</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Company</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>SK Date ID</AttributeID>
+                      <EstimatedCount>3685</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Date</AttributeID>
+                      <EstimatedCount>3685</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Month No</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Day</AttributeID>
+                      <EstimatedCount>31</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>SK Localisation ID</AttributeID>
+                      <EstimatedCount>17</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Inhabitants</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Sme</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SME Total</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Store</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Cost</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Date</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SK Localisation ID</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Sme</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SME Total</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Store</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SK Campaign ID</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Date</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 2</ID>
+                  <Name>Aggregation 2</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Sme</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SME Total</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Store</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SK Store ID</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Cost</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Date</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 3</ID>
+                  <Name>Aggregation 3</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Sme</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Store</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SK Campaign ID</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Date</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>SK Localisation ID</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 4</ID>
+                  <Name>Aggregation 4</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Sme</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Store</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Campaign</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Cost</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Date</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Localisation</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
+          <ProactiveCaching>
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+          </ProactiveCaching>
         </MeasureGroup>
       </MeasureGroups>
       <Source>
@@ -1461,6 +1770,49 @@ VISIBLE = 1; </Text>
           </Commands>
         </MdxScript>
       </MdxScripts>
+      <Kpis>
+        <Kpi>
+          <ID>KPI</ID>
+          <Name>Traffic</Name>
+          <AssociatedMeasureGroupID>Store Monitoring</AssociatedMeasureGroupID>
+          <Value>[Measures].[TrafficAverage]   </Value>
+          <Goal>(KPIVALUE( "Traffic" ) ,
+[Dim Date].[Year].CurrentMember.PrevMember) * 1.07
+</Goal>
+          <Status>IIf (KPIVALUE( "Traffic" ) &gt; KPIGoal("Traffic"), 1, -1)</Status>
+          <Trend>IIf ( KPIValue( "Traffic" ) &gt; (KPIVALUE( "Traffic" ), [Dim Date].[Year].CurrentMember.PrevMember) * 1.07, 1, -1)
+
+</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
+        <Kpi>
+          <ID>KPI 1</ID>
+          <Name>Sales</Name>
+          <AssociatedMeasureGroupID>Store Monitoring</AssociatedMeasureGroupID>
+          <Value>[Measures].[SalesAverage]  </Value>
+          <Goal>(KPIVALUE( "Sales" ) ,
+[Dim Date].[Year].CurrentMember.PrevMember) * 1.04</Goal>
+          <Status>IIf (KPIVALUE( "Sales" ) &gt; KPIGoal("Sales"), 1, -1)   </Status>
+          <Trend>IIf ( KPIValue( "Sales" ) &gt; (KPIVALUE( "Sales" ), [Dim Date].[Year].CurrentMember.PrevMember) * 1.04, 1, -1)
+</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
+        <Kpi>
+          <ID>KPI 2</ID>
+          <Name>Traffic2022</Name>
+          <AssociatedMeasureGroupID>Store Monitoring</AssociatedMeasureGroupID>
+          <Value>[Measures].[TrafficAverage]</Value>
+          <Goal>(KPIVALUE( "Traffic2022" ), [Dim Date].[Year].&amp;[2021]) * 1.07
+
+</Goal>
+          <Status>IIf (KPIVALUE( "Traffic2022" ) &gt; KPIGoal("Traffic2022"), 1, -1)</Status>
+          <Trend>IIf ( KPIValue( "Traffic2022" ) &gt; ([Measures].[TrafficAverage], [Dim Date].[Year].&amp;[2021]) * 1.07, 1, -1)</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
+      </Kpis>
     </Cube>
   </Cubes>
   <DataSources>
@@ -1509,7 +1861,7 @@ VISIBLE = 1; </Text>
                 <Name>_ALL_TABLES_</Name>
                 <DiagramLayout>
                   <dds>
-                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="31" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10818" scrolltop="-44" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="22818" y="16129" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10818" scrolltop="-44" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="29633" y="16129" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                       <font>
                         <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                       </font>
@@ -1597,33 +1949,15 @@ VISIBLE = 1; </Text>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5643" top="9195" logicalid="26" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3193" top="12838" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
                         <ddsxmlobj>
-                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_En__0F6D37F0]" vartype="8" />
-                          <property name="Virtual" value="0" vartype="11" />
-                          <property name="VisibleAP" value="0" vartype="3" />
-                        </ddsxmlobj>
-                      </layoutobject>
-                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                        <point x="6042" y="9694" />
-                        <point x="6042" y="12094" />
-                      </connector>
-                    </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3193" top="12838" logicalid="27" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                      <control>
-                        <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                        </ddsxmlobj>
-                      </control>
-                      <layoutobject>
-                        <ddsxmlobj>
-                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Lo__0D84EF7E]" vartype="8" />
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Lo__47B19113]" vartype="8" />
                           <property name="Virtual" value="0" vartype="11" />
                           <property name="VisibleAP" value="0" vartype="3" />
                         </ddsxmlobj>
@@ -1633,15 +1967,15 @@ VISIBLE = 1; </Text>
                         <point x="5893" y="13237" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8893" top="15181" logicalid="28" controlid="16" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8893" top="15181" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
                         <ddsxmlobj>
-                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Ca__0C90CB45]" vartype="8" />
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Ca__46BD6CDA]" vartype="8" />
                           <property name="Virtual" value="0" vartype="11" />
                           <property name="VisibleAP" value="0" vartype="3" />
                         </ddsxmlobj>
@@ -1653,35 +1987,15 @@ VISIBLE = 1; </Text>
                         <point x="9342" y="15481" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5574" top="15181" logicalid="29" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9191" top="12894" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="2972" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
                         <ddsxmlobj>
-                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Da__0B9CA70C]" vartype="8" />
-                          <property name="Virtual" value="0" vartype="11" />
-                          <property name="VisibleAP" value="0" vartype="3" />
-                        </ddsxmlobj>
-                      </layoutobject>
-                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                        <point x="5973" y="17881" />
-                        <point x="5973" y="16681" />
-                        <point x="6042" y="16681" />
-                        <point x="6042" y="15481" />
-                      </connector>
-                    </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9191" top="12894" logicalid="30" controlid="18" masterid="0" hint1="0" hint2="0" width="2972" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                      <control>
-                        <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                        </ddsxmlobj>
-                      </control>
-                      <layoutobject>
-                        <ddsxmlobj>
-                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_St__0E7913B7]" vartype="8" />
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_St__48A5B54C]" vartype="8" />
                           <property name="Virtual" value="0" vartype="11" />
                           <property name="VisibleAP" value="0" vartype="3" />
                         </ddsxmlobj>
@@ -1693,8 +2007,46 @@ VISIBLE = 1; </Text>
                         <point x="9491" y="13237" />
                       </connector>
                     </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5574" top="15181" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_Da__45C948A1]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="5973" y="17881" />
+                        <point x="5973" y="16681" />
+                        <point x="6042" y="16681" />
+                        <point x="6042" y="15481" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5643" top="9195" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Store_mon__SK_En__4999D985]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="6042" y="9694" />
+                        <point x="6042" y="12094" />
+                      </connector>
+                    </ddscontrol>
                   </dds>
-                </DiagramLayout>
+</DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
                 <DiagramViewPortLeft>-10818</DiagramViewPortLeft>
@@ -1896,25 +2248,25 @@ VISIBLE = 1; </Text>
               <xs:selector xpath=".//dbo_sysdiagrams" />
               <xs:field xpath="diagram_id" />
             </xs:unique>
-            <xs:keyref name="FK__Store_mon__SK_En__0F6D37F0" refer="dbo_Dim_Sme_Constraint1">
-              <xs:selector xpath=".//dbo_Store_monitoring" />
-              <xs:field xpath="SK_EngagementID" />
-            </xs:keyref>
-            <xs:keyref name="FK__Store_mon__SK_Lo__0D84EF7E" refer="dbo_Dim_Localisation_Constraint1">
+            <xs:keyref name="FK__Store_mon__SK_Lo__47B19113" refer="dbo_Dim_Localisation_Constraint1">
               <xs:selector xpath=".//dbo_Store_monitoring" />
               <xs:field xpath="SK_LocalisationID" />
             </xs:keyref>
-            <xs:keyref name="FK__Store_mon__SK_Ca__0C90CB45" refer="Constraint1">
+            <xs:keyref name="FK__Store_mon__SK_Ca__46BD6CDA" refer="Constraint1">
               <xs:selector xpath=".//dbo_Store_monitoring" />
               <xs:field xpath="SK_CampaignID" />
             </xs:keyref>
-            <xs:keyref name="FK__Store_mon__SK_Da__0B9CA70C" refer="dbo_Dim_Date_Constraint1">
+            <xs:keyref name="FK__Store_mon__SK_St__48A5B54C" refer="dbo_Dim_Store_Constraint1">
+              <xs:selector xpath=".//dbo_Store_monitoring" />
+              <xs:field xpath="SK_StoreID" />
+            </xs:keyref>
+            <xs:keyref name="FK__Store_mon__SK_Da__45C948A1" refer="dbo_Dim_Date_Constraint1">
               <xs:selector xpath=".//dbo_Store_monitoring" />
               <xs:field xpath="SK_DateID" />
             </xs:keyref>
-            <xs:keyref name="FK__Store_mon__SK_St__0E7913B7" refer="dbo_Dim_Store_Constraint1">
+            <xs:keyref name="FK__Store_mon__SK_En__4999D985" refer="dbo_Dim_Sme_Constraint1">
               <xs:selector xpath=".//dbo_Store_monitoring" />
-              <xs:field xpath="SK_StoreID" />
+              <xs:field xpath="SK_EngagementID" />
             </xs:keyref>
           </xs:element>
         </xs:schema>

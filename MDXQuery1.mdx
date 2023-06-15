@@ -1,0 +1,76 @@
+--1.Compare SalesRatio over the years.
+ SELECT NON EMPTY { [Measures].[SalesAverage] } ON COLUMNS, NON EMPTY { ([Dim Date].[Year].[Year].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Date].[Year].&[2018], [Dim Date].[Year].&[2019], [Dim Date].[Year].&[2020], [Dim Date].[Year].&[2021], [Dim Date].[Year].&[2022], [Dim Date].[Year].&[2023]} ) ON COLUMNS FROM [DWschema]) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--2.Compare TrafficRatio over the years. - MDX function operating on the dimension hierarchy
+SELECT NON EMPTY { [Measures].[TrafficAverage] } ON COLUMNS, NON EMPTY { ([Dim Date].[Year].[Year].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Date].[Year].&[2018], [Dim Date].[Year].&[2020], [Dim Date].[Year].&[2021], [Dim Date].[Year].&[2022],  [Dim Date].[Year].&[2023]} ) ON COLUMNS FROM [DWschema]) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+SELECT
+  NON EMPTY {[Measures].[TrafficAverage]} ON COLUMNS,
+  NON EMPTY {[Dim Date].[Year].&[2018], [Dim Date].[Year].&[2018].NextMember, [Dim Date].[Year].&[2021].PrevMember, [Dim Date].[Year].&[2020].NextMember, [Dim Date].[Year].&[2022]} DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS
+FROM [DWschema]
+CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+
+--3.How does the average monthly traffic volume is shaped in relation to the size of the stores?
+ SELECT NON EMPTY { [Measures].[Traffic Ratio] } ON COLUMNS, NON EMPTY { ([Dim Store].[Size].[Size].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM [DWschema] CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--4.Compare the average sales ratio from a certain month and a year, to the SMETotal- WHERE
+
+
+SELECT
+  NON EMPTY {[Measures].[SalesAverage]} ON COLUMNS,
+  NON EMPTY {[Dim Sme].[SME Total].[SME Total].ALLMEMBERS} DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS
+FROM [DWschema]
+WHERE
+  ([Dim Date].[Year].&[2018], [Dim Date].[Month No].&[4])
+CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--5.Compare the average traffic ratio from a certain month and a year, to the SMETotal.
+ SELECT NON EMPTY { [Measures].[TrafficAverage] } ON COLUMNS, NON EMPTY { ( [Dim Date].[Year].[Year].ALLMEMBERS * [Dim Date].[Month No].[Month No].ALLMEMBERS * [Dim Sme].[SME Total].[SME Total].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Date].[Month No].&[4] } ) ON COLUMNS FROM ( SELECT ( { [Dim Date].[Year].&[2018] } ) ON COLUMNS FROM [DWschema])) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--6.Which social media platform generates the biggest sales ratio at the specific year?
+ SELECT NON EMPTY { [Measures].[SalesAverage] } ON COLUMNS, NON EMPTY { ([Dim Campaign].[Platform].[Platform].ALLMEMBERS * [Dim Date].[Year].[Year].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Date].[Year].&[2018] } ) ON COLUMNS FROM [DWschema]) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--7.How does the average yearly sales volume is shaped in relation to the number of inhabitants (living at the localisations where the shops are placed)?
+ SELECT NON EMPTY { [Measures].[SalesAverage] } ON COLUMNS, NON EMPTY { ([Dim Localisation].[Inhabitants].[Inhabitants].ALLMEMBERS * [Dim Date].[Year].[Year].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Date].[Year].&[2018] } ) ON COLUMNS FROM ( SELECT ( { [Dim Localisation].[Inhabitants].[All] } ) ON COLUMNS FROM [DWschema])) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--8.Which social media platform generates the biggest traffic ratio at a specific year?
+ SELECT NON EMPTY { [Measures].[TrafficAverage] } ON COLUMNS, NON EMPTY { ([Dim Date].[Year].[Year].ALLMEMBERS * [Dim Campaign].[Platform].[Platform].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Campaign].[Platform].[All] } ) ON COLUMNS FROM ( SELECT ( { [Dim Date].[Year].&[2018] } ) ON COLUMNS FROM [DWschema])) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--9.Which company provides marketing campaigns which creates the biggest traffic ratio at the specific year?
+ SELECT NON EMPTY { [Measures].[TrafficAverage] } ON COLUMNS, NON EMPTY { ([Dim Date].[Year].[Year].ALLMEMBERS * [Dim Campaign].[Company].[Company].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Campaign].[Company].[All] } ) ON COLUMNS FROM ( SELECT ( { [Dim Date].[Year].&[2018] } ) ON COLUMNS FROM [DWschema])) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--10.What is the relationship between the cost of marketing campaigns and the salesRatio’s?
+ SELECT NON EMPTY { [Measures].[SalesAverage] } ON COLUMNS, NON EMPTY { ([Dim Campaign].[Cost].[Cost].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Dim Campaign].[Cost].[All] } ) ON COLUMNS FROM [DWschema]) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--11.Compare SalesRatio over the years. - TOP COUNT 5
+SELECT
+  NON EMPTY {[Measures].[SalesAverage]} ON COLUMNS,
+  NON EMPTY {TopCount([Dim Date].[Year].[Year].ALLMEMBERS, 5, [Measures].[SalesAverage])} DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS
+FROM [DWschema]
+CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS
+
+--12.Compare sales of 2023 to the sales of 2022 - numerical operations, calculated member, MDX function operating on the dimension hierarchy
+
+WITH MEMBER [Measures].[Current Year Sales] AS
+    SUM(
+        {[Dim Date].[Year].CurrentMember},  
+        [Measures].[SalesAverage]
+    )
+MEMBER [Measures].[Previous Year Sales] AS
+    SUM(
+        {[Dim Date].[Year].[2023].PrevMember},  
+        [Measures].[SalesAverage]
+    )
+MEMBER [Measures].[Sales Difference] AS
+    [Measures].[Current Year Sales] - [Measures].[Previous Year Sales]
+MEMBER [Measures].[Sales Division] AS
+    [Measures].[Current Year Sales] / [Measures].[Previous Year Sales]
+SELECT
+    {
+        [Measures].[Current Year Sales],
+        [Measures].[Previous Year Sales],
+        [Measures].[Sales Difference],
+        [Measures].[Sales Division]
+    } ON COLUMNS
+FROM [DWschema]

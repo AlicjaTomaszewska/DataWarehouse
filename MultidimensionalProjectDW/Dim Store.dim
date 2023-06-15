@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8b885086-a824-45fd-b46f-f101ff02b5d6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="90d88deb-1042-4337-a1f5-cfd6728f25d3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Store</ID>
   <Name>Dim Store</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,41 +68,42 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="039b6011-f78f-433b-8a43-8ff23b89f41d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3e12f0d8-c1f4-45e3-beb8-46104dddcfc9">
     <DataSourceViewID>DWschema</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="65bf3cfe-2c6d-411e-a012-1ae9bddbfd87">
+  <ErrorConfiguration dwd:design-time-name="2addfbd5-4ea3-4f62-a9a4-2e4875cdfc13">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3b623785-4381-43ac-9199-02ccb5b30dc6">
+    <Attribute dwd:design-time-name="022aa043-8ae6-44e4-b194-4a2bdfee29cc">
       <ID>SK Store ID</ID>
       <Name>SK Store ID</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>162</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e76384ff-394c-42b3-916a-17fed8e1adfa">
+        <KeyColumn dwd:design-time-name="e13f2736-3341-4dcd-9fb8-9e7af360c6c7">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0163b9d7-2d07-448d-8c2f-060760e61c66">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4ce82d4-b36c-4b83-a938-3076db1b4a42">
             <TableID>dbo_Dim_Store</TableID>
             <ColumnID>SK_StoreID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0cbc9e14-c201-4ff3-a882-9448f4354b05">
+        <AttributeRelationship dwd:design-time-name="cf803436-fcb7-4d5d-8ab6-5062609ac277">
           <AttributeID>Size</AttributeID>
           <Name>Size</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="05138a7f-21c6-46b1-bce1-9363337cfcd4">
+        <AttributeRelationship dwd:design-time-name="25a9bb55-c753-4ea7-abf7-77b0b76cc8bc">
           <AttributeID>Activeness</AttributeID>
           <Name>Activeness</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9ba8ac0e-f4f1-4533-8813-07b1ff06359f">
+        <AttributeRelationship dwd:design-time-name="3519ff38-e8e7-4542-9c8e-68798eb64863">
           <AttributeID>BK Store ID</AttributeID>
           <Name>BK Store ID</Name>
         </AttributeRelationship>
@@ -111,14 +112,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f51b573d-2790-4659-890d-103669d28357">
+    <Attribute dwd:design-time-name="2b3a1700-811b-4cbb-83f6-5203fee44b02">
       <ID>Size</ID>
       <Name>Size</Name>
+      <EstimatedCount>4</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f20a65c0-5267-489d-a666-65b5454b8735">
+        <KeyColumn dwd:design-time-name="994a2f34-90aa-4308-8806-0399c6ad2d71">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="127d7920-62cd-4183-80d1-b9789b3cfc32">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cae84237-27a3-4b9b-b223-932f118bea00">
             <TableID>dbo_Dim_Store</TableID>
             <ColumnID>Size</ColumnID>
           </Source>
@@ -127,14 +129,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="508d3005-e46c-4aa9-9c67-a2353f14e134">
+    <Attribute dwd:design-time-name="5dc49125-81c3-4924-9c07-697b8484b94e">
       <ID>Activeness</ID>
       <Name>Activeness</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d1d3db30-9ed8-4f79-a491-b993d335d425">
+        <KeyColumn dwd:design-time-name="2d8e722c-9846-4447-a97a-ea07921db755">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="69593c57-d46e-47b7-ac01-38330f8ec4ec">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cfafad6-9356-4986-8188-0b5f676a797e">
             <TableID>dbo_Dim_Store</TableID>
             <ColumnID>Activeness</ColumnID>
           </Source>
@@ -143,14 +145,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="af5489dc-d2d6-48f2-8a41-3893d9368cdb">
+    <Attribute dwd:design-time-name="f7f3d69f-fc23-43ca-bd07-64a1269bdece">
       <ID>BK Store ID</ID>
       <Name>BK Store ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="adf105f4-d80e-4bc3-9bc5-cf407e3ec273">
+        <KeyColumn dwd:design-time-name="e5d86bf6-4262-4002-bac0-e6bd07784e48">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b971e1cd-3632-4137-8297-5bb2443e2261">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d0854eb-9d11-480c-9cd7-b8508354cf19">
             <TableID>dbo_Dim_Store</TableID>
             <ColumnID>BK_StoreID</ColumnID>
           </Source>
